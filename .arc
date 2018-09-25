@@ -1,10 +1,6 @@
-#
-# Warning! Do Not Edit
-# --------------------
-# This is a generated file and will be overwritten
-#
 @app
-begin-app
+scorch-g4s
 
 @html
 get /
+get /about
