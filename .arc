@@ -4,3 +4,6 @@ scorch-g4s
 @html
 get /
 get /about
+
+@js
+/test
