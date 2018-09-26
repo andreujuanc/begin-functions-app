@@ -7,3 +7,6 @@ get /about
 
 @js
 /test
+
+@json
+get /test2
