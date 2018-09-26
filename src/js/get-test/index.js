@@ -1,10 +1,10 @@
 let begin = require('@architect/functions')
 
 function route (req, res) {
-  let request = JSON.stringify(req, null, 2)
+  let request = JSON.stringify( new Date(Date.now()).toString() )
 
   // TODO change defaultJS
-  let defaultJS = `console.log('Hello frontend! ', ${request})`
+  let defaultJS = `console.log('Le time ', ${request})`
 
   console.log('Hello backend! ', request)
   res({
